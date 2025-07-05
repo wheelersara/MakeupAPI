@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API's</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="products.js" defer></script>
+    <script src="display.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class= "container">
+        <header>The Makeup Shoppe</header>
+        <nav></nav>
+        <div class="inputContainer">
+            <h3>Enter a product from the list above to search:</h3>
+            <label for="brand">Product Type:</label>
+            <input type="text" id="productType" name="productType" />
+            <button id="getProductsButton">Click to get Products</button>
+        </div>
+        <div class="info">
+            <div class="allProducts"></div>
+        </div>
+    </div>
+  </body>
+</html>
